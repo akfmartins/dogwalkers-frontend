@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../style/Register.css"; // Importando o CSS para estilização
 
 const API_URL = import.meta.env.VITE_API_URL;
 

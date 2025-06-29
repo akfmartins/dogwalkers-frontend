@@ -1,31 +1,7 @@
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
+/* src/style/layout.css */
 
-.main-content {
-  margin-left: 250px;
-  min-height: 100vh;
-  position: relative;
-  padding: 2rem;
-  overflow: auto;
-  color: #fff;
-
-  background-color: rgba(0, 0, 0, 0.4);      /* fundo escuro semi-transparente */
-  backdrop-filter: blur(12px);              /* desfoca o fundo */
-  -webkit-backdrop-filter: blur(12px);      /* suporte Safari */
-  border-radius: 12px;                      /* cantos arredondados */
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);/* leve sombra */
-}
-
-
-
-.main-content > * {
-  position: relative;
-  z-index: 1;
-}
 .main-layout {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
-  background-color: #f0f0f0;
 }
-

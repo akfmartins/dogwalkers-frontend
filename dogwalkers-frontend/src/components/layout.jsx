@@ -2,7 +2,6 @@
 import React from 'react'
 import { Container, Nav } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import './Layout.css' // Arquivo CSS customizado para estilo da sidebar
 import '../assets/walker.jpeg'; // garante que a imagem seja incluída no build
 
 
